@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout 
+  title="London City FC - Home"
+  description="London City Football Club - Un nouveau projet de football basé à Londres avec une vision à long terme"
+>
+  <Navigation />
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="/images/Terrain foot.jpeg" alt="Terrain de football" class="hero-image" loading="eager" />
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">London City<br>Football Club</h1>
+        <p class="hero-subtitle">Un nouveau projet de football basé à Londres</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Intro Section -->
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-title">Intro</h2>
+        <div class="section-content">
+          <p class="lead-text">
+            London City Football Club is a new football project based in London, built with a long-term vision and the ambition to become one of the city's reference clubs over time.
+          </p>
+          <p>
+            Born from a clear idea and a structured approach, London City aims to grow step by step, with strong foundations, a clear identity, and a modern vision of football.
+          </p>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Who we are Section -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-with-image">
+          <div class="content-image-left">
+            <img src="/images/Foot chaussures.jpeg" alt="Chaussures de football" class="small-content-image" loading="lazy" />
+          </div>
+          <div class="section-content-right">
+            <h2 class="section-title-right">Who we are</h2>
+            <p>
+              Driven by a shared passion and elite football backgrounds, our team combines local insights from the English game with broader European perspectives. Our journey is fueled by the discipline of professional sport and a deep understanding of the modern game.
+            </p>
+            <p>
+              We aren't afraid to start from the ground up. We understand the grit required to climb the ranks and are dedicated to creating a football project that stands for integrity, sustainability, and excellence. For us, starting at the bottom of the pyramid is not a challenge, but a deliberate choice to build on solid foundations.
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Our idea Section -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-with-image-reverse">
+          <div class="section-content-left">
+            <h2 class="section-title-left">Our idea</h2>
+            <p>
+              Our idea is to combine football and social media to tell the real story of a football club: from its creation to its growth, season after season.
+            </p>
+            <p>
+              London City is not just a team, but a project with a strong identity.
+              A club designed to represent London as a whole — not just a single district — and to connect people to the journey, the values, and the ambition behind it.
+            </p>
+          </div>
+          <div class="content-image-right">
+            <img src="/images/Football is life.jpeg" alt="Football is life" class="small-content-image" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">Ready to Join Our Journey?</h2>
+          <p class="cta-text">Get in touch with us and be part of the London City FC story</p>
+          <a href="/contact" class="cta-button">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
