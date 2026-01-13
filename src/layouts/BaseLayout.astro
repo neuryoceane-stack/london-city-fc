@@ -280,10 +280,12 @@ const { title, description } = Astro.props;
   }
 
   .hero-image-bottom {
-    object-position: bottom;
-    object-fit: contain;
-    transform: scale(0.8);
-    transform-origin: bottom center;
+    object-position: bottom center;
+    object-fit: cover;
+    height: 120%;
+    width: 100%;
+    top: auto;
+    bottom: 0;
   }
 
   .hero-overlay {
