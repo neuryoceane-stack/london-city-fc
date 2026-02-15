@@ -1,6 +1,6 @@
-# London City Football Club - Site Web (Astro)
+# London Albion City Football Club - Site Web (Astro)
 
-Site web officiel du London City Football Club, un nouveau projet de football basé à Londres avec une vision à long terme.
+Site web officiel du London Albion City Football Club, un nouveau projet de football basé à Londres avec une vision à long terme.
 
 ## 🚀 Technologies
 
@@ -30,7 +30,7 @@ Projet 5 London FC Foot/
 │   │   └── BaseLayout.astro
 │   └── pages/             # Pages du site (routing automatique)
 │       ├── index.astro    # Page d'accueil (/)
-│       └── vision.astro  # Page Vision (/vision)
+│       └── the-club.astro  # Page The Club (/the-club)
 ├── astro.config.mjs       # Configuration Astro
 ├── package.json           # Dépendances et scripts
 └── README.md             # Documentation
@@ -68,7 +68,7 @@ Contient les sections :
 - Who we are
 - Our idea
 
-### Vision (`/vision`)
+### The Club (`/the-club`)
 Contient les sections :
 - What we are building
 - Long-term ambition
@@ -150,8 +150,8 @@ Le site peut être déployé sur n'importe quelle plateforme supportant les site
 
 ## 📞 Contact
 
-Pour toute question ou suggestion concernant le site, contactez l'équipe du London City FC.
+Pour toute question ou suggestion concernant le site, contactez l'équipe du London Albion City FC.
 
 ---
 
-© 2024 London City Football Club. Tous droits réservés.
+© 2024 London Albion City Football Club. Tous droits réservés.

@@ -13,7 +13,7 @@ Déposez le logo du club ici.
 
 **Utilisation dans le code :**
 ```astro
-<img src="/logo/logo.svg" alt="London City FC Logo" />
+<img src="/logo/logo.svg" alt="London Albion City FC Logo" />
 ```
 
 ### `/images/`
@@ -27,7 +27,7 @@ Déposez toutes les autres images du site ici (photos d'équipe, stade, événem
 
 **Utilisation dans le code :**
 ```astro
-<img src="/images/hero/stadium.jpg" alt="Stade London City" />
+<img src="/images/hero/stadium.jpg" alt="Stade London Albion City" />
 ```
 
 ## 📝 Notes

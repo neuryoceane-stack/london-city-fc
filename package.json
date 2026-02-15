@@ -2,7 +2,7 @@
   "name": "london-city-fc",
   "type": "module",
   "version": "1.0.0",
-  "description": "Site web officiel du London City Football Club",
+  "description": "Site web officiel du London Albion City Football Club",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
     "start": "astro dev --host 127.0.0.1",

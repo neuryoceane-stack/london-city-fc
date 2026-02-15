@@ -1,0 +1,161 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout 
+  title="London Albion City FC - Identity"
+  description="London Albion City Football Club - Our name, symbols and identity"
+>
+  <Navigation />
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="/images/Cage ciel.jpeg" alt="Identity" class="hero-image hero-image-bottom" loading="eager" />
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Identity</h1>
+        <p class="hero-subtitle">Our name, our symbols, our story</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-content page-identity">
+    <!-- Section 1: Our Name -->
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-title">Our Name</h2>
+        <div class="section-content">
+          <p>
+            London Albion City Football Club is a name built with intention.
+          </p>
+          <p>
+            "London" represents the city we call home, one of the world's most influential and competitive football environments. It reflects diversity, ambition and global relevance.
+          </p>
+          <p>
+            "Albion" connects the club to the historic identity of England. An ancient name for the nation, Albion represents heritage, pride and continuity. It anchors the club in tradition while we build for the future.
+          </p>
+          <p>
+            "City" represents the people. It speaks to community, belonging and the urban energy that defines modern football culture.
+          </p>
+          <p class="emphasis-text">
+            Together, the name embodies geography, heritage and identity, London Albion City.
+          </p>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Section 2: The Ship -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-with-image">
+          <div class="content-image-left">
+            <img src="/logo/The Ship.jpeg" alt="The Ship" class="small-content-image" loading="lazy" />
+          </div>
+          <div class="section-content-right">
+            <h2 class="section-title-right">The Ship</h2>
+            <p>
+              The ship represents journey, ambition and expansion.
+            </p>
+            <p>
+              London has always been a gateway to the world, a city built on movement, trade and global connection. The ship reflects that spirit.
+            </p>
+            <p>
+              For the club, it symbolises progress. We are building something that moves forward, step by step, season by season.
+            </p>
+            <p class="emphasis-text">
+              London Albion City FC is on a journey, not a moment.
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Section 3: The Cross of St George -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-with-image">
+          <div class="content-image-left">
+            <img src="/logo/The Cross of St George.jpeg" alt="The Cross of St George" class="small-content-image" loading="lazy" />
+          </div>
+          <div class="section-content-right">
+            <h2 class="section-title-right">The Cross of St George</h2>
+            <p>
+              The red cross represents England.
+            </p>
+            <p>
+              It anchors the club within the English football system and honours the traditions that shaped the game.
+            </p>
+            <p>
+              It stands for resilience, competition and national sporting identity.
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Section 4: The Tudor Rose -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-with-image">
+          <div class="content-image-left">
+            <img src="/logo/The Tudor Rose.jpeg" alt="The Tudor Rose" class="small-content-image" loading="lazy" />
+          </div>
+          <div class="section-content-right">
+            <h2 class="section-title-right">The Tudor Rose</h2>
+            <p>
+              The Tudor rose is one of the most recognisable emblems of England's history.
+            </p>
+            <p>
+              It represents unity, heritage and strength through time.
+            </p>
+            <p>
+              Its presence in our crest reinforces that while we are a modern project, we respect the foundations of English football culture.
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Section 5: The Heraldic Lion -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-with-image">
+          <div class="content-image-left">
+            <img src="/logo/The Heraldic Lion.jpeg" alt="The Heraldic Lion" class="small-content-image" loading="lazy" />
+          </div>
+          <div class="section-content-right">
+            <h2 class="section-title-right">The Heraldic Lion</h2>
+            <p>
+              The golden lion symbolises courage, authority and competitive spirit.
+            </p>
+            <p>
+              It is a historic emblem of strength within British heraldry and reflects the ambition of the club.
+            </p>
+            <p class="emphasis-text">
+              The lion represents leadership, on and off the pitch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style is:global>
+  .page-identity .content-with-image {
+    align-items: center;
+  }
+  .page-identity .content-image-left {
+    align-items: center;
+  }
+</style>

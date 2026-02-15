@@ -1,6 +1,6 @@
 # 🚀 Guide de Déploiement sur Vercel
 
-Ce guide vous explique comment déployer votre site London City FC sur Vercel pour le partager avec votre copain.
+Ce guide vous explique comment déployer votre site London Albion City FC sur Vercel pour le partager avec votre copain.
 
 ## 📋 Prérequis
 
@@ -33,7 +33,7 @@ Ce guide vous explique comment déployer votre site London City FC sur Vercel po
    git add .
    
    # Créer le premier commit
-   git commit -m "Initial commit - London City FC website"
+   git commit -m "Initial commit - London Albion City FC website"
    
    # Ajouter le dépôt distant (remplacez VOTRE_USERNAME par votre nom d'utilisateur GitHub)
    git remote add origin https://github.com/VOTRE_USERNAME/london-city-fc.git
