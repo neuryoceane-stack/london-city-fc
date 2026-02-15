@@ -28,15 +28,28 @@ import Footer from '../components/Footer.astro';
       <div class="container">
         <div class="contact-wrapper">
           <div class="contact-info">
-            <h2 class="section-title">Get in Touch</h2>
+            <h2 class="section-title">Contact</h2>
             <div class="section-content">
-              <p>
-                We'd love to hear from you. Whether you have questions about the club, want to get involved, or just want to say hello, feel free to reach out.
-              </p>
               <div class="contact-details">
                 <div class="contact-item">
-                  <h3>Email</h3>
-                  <p>riccardobotticella@londoncityfc.com</p>
+                  <h3>Commercial & Sponsorship</h3>
+                  <p class="contact-role">Riccardo Botticella — Commercial & Sponsorship Director</p>
+                  <p class="contact-email"><a href="mailto:riccardobotticella@londoncityfc.com">riccardobotticella@londoncityfc.com</a></p>
+                  <p class="contact-desc">For partnership opportunities, sponsorship agreements and commercial collaborations.</p>
+                </div>
+                <div class="contact-divider"></div>
+                <div class="contact-item">
+                  <h3>Media & Social Collaborations</h3>
+                  <p class="contact-role">Lorenzo Coppello — Head of Media & Digital Strategy</p>
+                  <p class="contact-email"><a href="mailto:lorenzocoppello@londoncityfc.com">lorenzocoppello@londoncityfc.com</a></p>
+                  <p class="contact-desc">For media enquiries, content collaborations, influencer partnerships and social initiatives.</p>
+                </div>
+                <div class="contact-divider"></div>
+                <div class="contact-item">
+                  <h3>General Enquiries</h3>
+                  <p class="contact-role">Gregorio Desario — Operations & Administration</p>
+                  <p class="contact-email"><a href="mailto:gregoriodesario@londoncityfc.com">gregoriodesario@londoncityfc.com</a></p>
+                  <p class="contact-desc">For general questions, club information and other enquiries.</p>
                 </div>
                 <div class="contact-item">
                   <h3>Follow Us</h3>
@@ -127,6 +140,38 @@ import Footer from '../components/Footer.astro';
   .contact-item p {
     color: var(--text-secondary);
     font-size: var(--font-size-base);
+  }
+
+  .contact-role {
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .contact-email {
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .contact-email a {
+    color: var(--team-red);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .contact-email a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-desc {
+    margin-top: var(--spacing-xs);
+    font-size: var(--font-size-base);
+  }
+
+  .contact-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--team-brown), transparent);
+    margin: var(--spacing-md) 0;
   }
 
   .social-links {
